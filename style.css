@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Space Mono";
+}
+
+body {
+    background-color: rgba(197, 228, 231, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 25px;
+}
+
+.parie-ecrit {
+    width: 50%;
+}
+
+.parie-ecrit form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.parie-ecrit label {
+    display: flex;
+    flex-direction: column;
+}
+
+.label-btn {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.label-btn button {
+    padding: 20PX;
+    border: none;
+}
+
+.parie-rendu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgba(0, 71, 75, 1);
+    padding: 20px 15px;
+    width: 50%;
+    border-radius: 15px;
+    height: 100%;
+}
+
+.tipAmout {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.total {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.parie-rendu button {
+    width: 100%;
+    background-color: rgba(38, 194, 174, 1);
+    color: rgba(0, 71, 75, 1);
+    font-weight: 700;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    padding: 7px 0px;
+}
+
+.parie-rendu button:hover {
+    background-color: rgba(159, 232, 223, 1);
+}
+
+.grp h2{
+    font-size: 48px;
+    color: rgba(38, 194, 174, 1);
+}
+
+.grp2 p {
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.grp2 span {
+    color: rgba(127, 157, 159, 1);
+    font-size: 13px;
+    font-weight: 700;
+}

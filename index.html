@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Document</title>
+	</head>
+	<body>
+		<header>
+			<img src="./assets/SPLITTER.svg" alt="titre principale" />
+		</header>
+
+		<main>
+			<section>
+				<div class="parie-ecrit">
+					<form>
+						<label>
+							Bill
+							<input type="text" />
+						</label>
+						<label>
+							Select Tip %
+							<div class="label-btn">
+								<button>5%</button>
+								<button>10%</button>
+								<button class="tip15">15%</button>
+								<button>25%</button>
+								<button>50%</button>
+								<button class="custom">Custom</button>
+							</div>
+						</label>
+						<label>
+							Number of People
+							<input type="text" />
+						</label>
+					</form>
+				</div>
+				<div class="parie-rendu">
+                    <div class="partie-prix">
+                        <div class="tipAmout grp">
+                            <div class="tip-person grp2">
+                                <p>Tip Amount</p>
+                                <span>/ person</span>
+                            </div>
+                            <h2>$<span>0.00</span></h2>
+                        </div>
+                        <div class="total grp">
+                            <div class="total-person grp2">
+                                <p>Total</p>
+                                <span>/ person</span>
+                            </div>
+                            <h2>$<span>0.00</span></h2>
+                        </div>
+                    </div>
+					<button>RESET</button>
+				</div>
+			</section>
+		</main>
+
+		<script src="script.js"></script>
+	</body>
+</html>
