@@ -17,22 +17,28 @@
 					<form>
 						<label>
 							Bill
-							<input type="text" />
+							<div class="dollar prix">
+								<span>$</span>
+								<input class="money1" type="number" placeholder="0"/>
+							</div>
 						</label>
 						<label>
 							Select Tip %
 							<div class="label-btn">
 								<button>5%</button>
 								<button>10%</button>
-								<button class="tip15">15%</button>
+								<button>15%</button>
 								<button>25%</button>
 								<button>50%</button>
-								<button class="custom">Custom</button>
+								<button class="custom"><span>Custom</span></button>
 							</div>
 						</label>
 						<label>
 							Number of People
-							<input type="text" />
+							<div class="dollar2 prix">
+								<span>$</span>
+								<input class="money2" type="number" placeholder="0"/>
+							</div>
 						</label>
 					</form>
 				</div>
@@ -43,14 +49,14 @@
                                 <p>Tip Amount</p>
                                 <span>/ person</span>
                             </div>
-                            <h2>$<span>0.00</span></h2>
+                            <h2>$<span class="money11">0.00</span></h2>
                         </div>
                         <div class="total grp">
                             <div class="total-person grp2">
                                 <p>Total</p>
                                 <span>/ person</span>
                             </div>
-                            <h2>$<span>0.00</span></h2>
+                            <h2>$<span class="money22">0.00</span></h2>
                         </div>
                     </div>
 					<button>RESET</button>
